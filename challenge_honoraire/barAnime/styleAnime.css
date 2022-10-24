@@ -1,0 +1,280 @@
+.container {
+  width: 800px;
+  height: 200px;
+  position: relative;
+  margin: 15% auto 0px auto;
+  transform: translate(0, -50%);
+}
+.bar {
+  width: 20px;
+  position: absolute;
+  bottom: 1px;
+  margin: 0px 0px 0px 0px;
+  z-index: 99;
+  float: left;
+}
+.bar1 {
+  background: #9baec8;
+  height: 0px;
+  left: 62.7272727273px;
+  -webkit-animation: showBar1 1.2s 0.1s forwards;
+  animation: showBar1 1.5s 0.1s forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+.bar2 {
+  background: #9baec8;
+  height: 0px;
+  left: 135.4545454545px;
+  -webkit-animation: showBar2 1.2s 0.2s forwards;
+  animation: showBar2 1.5s 0.2s forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+.bar3 {
+  background: #9baec8;
+  height: 0px;
+  left: 208.1818181818px;
+  -webkit-animation: showBar3 1.2s 0.3s forwards;
+  animation: showBar3 1.5s 0.3s forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+.bar4 {
+  background: #9baec8;
+  height: 0px;
+  left: 280.9090909091px;
+  -webkit-animation: showBar4 1.2s 0.4s forwards;
+  animation: showBar4 1.5s 0.4s forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+.bar5 {
+  background: #9baec8;
+  height: 0px;
+  left: 353.6363636364px;
+  -webkit-animation: showBar5 1.2s 0.5s forwards;
+  animation: showBar5 1.5s 0.5s forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+.bar6 {
+  background: #9baec8;
+  height: 0px;
+  left: 426.3636363636px;
+  -webkit-animation: showBar6 1.2s 0.6s forwards;
+  animation: showBar6 1.5s 0.6s forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+.bar7 {
+  background: #9baec8;
+  height: 0px;
+  left: 499.0909090909px;
+  -webkit-animation: showBar7 1.2s 0.7s forwards;
+  animation: showBar7 1.5s 0.7s forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+.bar8 {
+  background: #9baec8;
+  height: 0px;
+  left: 571.8181818182px;
+  -webkit-animation: showBar8 1.2s 0.8s forwards;
+  animation: showBar8 1.5s 0.8s forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+.bar9 {
+  background: #9baec8;
+  height: 0px;
+  left: 644.5454545455px;
+  -webkit-animation: showBar9 1.2s 0.9s forwards;
+  animation: showBar9 1.5s 0.9s forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+.bar10 {
+  background: #9baec8;
+  height: 0px;
+  left: 717.2727272727px;
+  -webkit-animation: showBar10 1.2s 1s forwards;
+  animation: showBar10 1.5s 1s forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+.bar:before {
+  position: absolute;
+  top: -16px;
+  font-size: 12px;
+  color: #000;
+}
+.bar1:before {
+  content: 50%;
+}
+.bar2:before {
+  content: 40%;
+}
+.bar3:before {
+  content: 70%;
+}
+.bar4:before {
+  content: 22%;
+}
+.bar5:before {
+  content: 35%;
+}
+.bar6:before {
+  content: 40%;
+}
+.bar7:before {
+  content: 85%;
+}
+.bar8:before {
+  content: 36%;
+}
+.bar9:before {
+  content: 88%;
+}
+.bar10:before {
+  content: 62%;
+}
+.bar:after {
+  position: absolute;
+  bottom: -55px;
+  color: #000;
+  font-size: 14px;
+  text-align: left;
+  width: 150px;
+}
+.bar1:after {
+  content: "nad";
+}
+.bar2:after {
+  content: "nad";
+}
+.bar3:after {
+  content: "nad";
+}
+.bar4:after {
+  content: "nad";
+}
+.bar5:after {
+  content: "nad";
+}
+.bar6:after {
+  content: "Oliver";
+}
+.bar7:after {
+  content: "Barry";
+}
+.bar8:after {
+  content: "Felicity";
+}
+.bar9:after {
+  content: "Malcom";
+}
+.bar10:after {
+  content: "Ted";
+}
+ @-webkit-keyframes showBar1 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 50%;
+  }
+}
+    @-webkit-keyframes showBar2 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 40%;
+  }
+}
+    @-webkit-keyframes showBar3 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 70%;
+  }
+}
+@-webkit-keyframes showBar4 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 22%;
+  }
+}
+@-webkit-keyframes showBar5 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 35%;
+  }
+}
+@-webkit-keyframes showBar6 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 40%;
+  }
+}
+@-webkit-keyframes showBar7 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 85%;
+  }
+}
+@-webkit-keyframes showBar8 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 36%;
+  }
+}
+@-webkit-keyframes showBar9 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 88%;
+  }
+}
+@-webkit-keyframes showBar10 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 62%;
+  } 
+}
+/* ****************************************** */
+.progress {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background-color: #ecf0f5;
+  position: relative;
+  transition: background-color 0.5s, border-radius 0.5s;
+  cursor: pointer;
+ 
+}
+.progress-bar {
+  position: absolute;
+  bottom: 0px;
+  width: 150px;
+  height: 0px;
+  background: #3bafda;
+  max-height: 100%;
+  transition: background-color 0.5s, border-radius 1s;
+}
+
